@@ -5,6 +5,7 @@ import subprocess
 def create_venv_and_install_packages():
     # Crear el entorno virtual .venv
     os.system("python3 -m venv .venv")
+    print("Prueba")
 
     # Verificar el sistema operativo para activar el entorno
     if platform.system() == "Windows":
