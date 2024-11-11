@@ -1,6 +1,7 @@
 import os
 import platform
 import subprocess
+import requests
 
 def create_venv_and_install_packages():
     # Crear el entorno virtual .venv
